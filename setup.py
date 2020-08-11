@@ -25,11 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='bekeshbiron',
-    use_scm_version={
-        'local_scheme': 'dirty-tag',
-        'write_to': 'src/bekeshbiron/_version.py',
-        'fallback_version': '0.0.0',
-    },
+    version='0.0.1',
     license='LGPL-3.0-or-later',
     description='A VERY useful package that suppresses warnings!',
     long_description='%s\n%s' % (
@@ -48,7 +44,7 @@ setup(
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: Unix',
         'Operating System :: POSIX',
         'Operating System :: Microsoft :: Windows',
