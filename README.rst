@@ -26,7 +26,6 @@ To use the project:
 .. code-block:: python
 
     import bekeshbiron
-    bekeshbiron.longest()
 
 
 Development
